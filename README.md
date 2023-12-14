@@ -1,6 +1,6 @@
 # Ternary Spike: Learning Ternary Spikes for Spiking Neural Networks
 
-Official implementation of [Ternary Spike AAAI2024](https://arxiv.org/abs/2308.06787).
+Official implementation of [Ternary Spike AAAI2024](https://arxiv.org/pdf/2312.06372.pdf).
 
 ## Introduction
 
@@ -20,12 +20,10 @@ python -m torch.distributed.launch --nproc_per_node 8 --nnode 1 --master_port=25
 ## Citation
 
 ```bash
-@inproceedings{
-guo2022imloss,
-title={{IM}-Loss: Information Maximization Loss for Spiking Neural Networks},
-author={Yufei Guo and Yuanpei Chen and Liwen Zhang and Xiaode Liu and Yinglei Wang and Xuhui Huang and Zhe Ma},
-booktitle={Advances in Neural Information Processing Systems},
-editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
-year={2022}
+@article{guo2023ternary,
+  title={Ternary Spike: Learning Ternary Spikes for Spiking Neural Networks},
+  author={Guo, Yufei and Chen, Yuanpei and Liu, Xiaode and Peng, Weihang and Zhang, Yuhan and Huang, Xuhui and Ma, Zhe},
+  journal={arXiv preprint arXiv:2312.06372},
+  year={2023}
 }
 ```
